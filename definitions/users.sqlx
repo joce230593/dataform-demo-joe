@@ -7,4 +7,4 @@ config {
   }
 }
 
-SELECT user_id, age FROM ${ref("overridden_name")}
+SELECT user_id, age FROM ${ref("source")}

@@ -7,4 +7,4 @@ config {
   }
 }
 
-SELECT answer_count, question_count FROM ${ref("overridden_name")}
+SELECT answer_count, question_count FROM ${ref("source")}
